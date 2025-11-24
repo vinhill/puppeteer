@@ -2,6 +2,28 @@
 
 Combined changelog for puppeteer and puppeteer-core.
 
+## [24.32.0](https://github.com/puppeteer/puppeteer/compare/puppeteer-v24.31.0...puppeteer-v24.32.0) (2025-11-24)
+
+### ♻️ Chores
+
+- **puppeteer:** Synchronize puppeteer versions
+
+### Dependencies
+
+- The following workspace dependencies were updated
+  - dependencies
+    - puppeteer-core bumped from 24.31.0 to 24.32.0
+
+### 🎉 Features
+
+- add browser.screens, .addScreen and .removeScreen methods ([#14445](https://github.com/puppeteer/puppeteer/issues/14445)) ([98ae5e7](https://github.com/puppeteer/puppeteer/commit/98ae5e75fda3d01c067dac6926370dba05cd720c))
+- bluetooth emulation ([#14448](https://github.com/puppeteer/puppeteer/issues/14448)) ([e181c1b](https://github.com/puppeteer/puppeteer/commit/e181c1befaebadfa74ec4e1b6742f26187bd3a2a))
+- support new page window positioning ([#14446](https://github.com/puppeteer/puppeteer/issues/14446)) ([20881f8](https://github.com/puppeteer/puppeteer/commit/20881f8a52b8a29abaf6e5353dc8642474348fa0))
+
+### 🛠️ Fixes
+
+- **webdriver:** allow for scripts to throw platform objects ([#14456](https://github.com/puppeteer/puppeteer/issues/14456)) ([7c0d3d9](https://github.com/puppeteer/puppeteer/commit/7c0d3d977b2c3370516c42218977bd4338421b28))
+
 ## [24.31.0](https://github.com/puppeteer/puppeteer/compare/puppeteer-v24.30.0...puppeteer-v24.31.0) (2025-11-20)
 
 ### ♻️ Chores
