@@ -28,7 +28,6 @@ export class BidiDeserializer {
           return acc.add(this.deserialize(value));
         }, new Set());
       case 'object':
-        console.log(`!!@@## ${JSON.stringify(result)}`);
         if (!result?.value) {
           // Heuristic detecting platform objects. WebDriver BiDi serializes platform
           // objects without value. Return an empty object, as there is no way to restore
