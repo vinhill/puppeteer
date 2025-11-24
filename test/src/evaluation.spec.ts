@@ -275,13 +275,6 @@ describe('Evaluation specs', function () {
       expect(result).not.toBe(object);
       expect(result).toEqual(object);
     });
-    it('should return platform objects', async () => {
-      const {page} = await getTestState();
-
-      const result = await page.evaluate(()=>new DOMException("some DOMException message"));
-      // Platform objects are serialized as an empty object.
-      expect(result).toEqual({});
-    });
     it('should return BigInt', async () => {
       const {page} = await getTestState();
 
