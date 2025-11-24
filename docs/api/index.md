@@ -700,6 +700,13 @@ Description
 </td></tr>
 <tr><td>
 
+<span id="addscreenparams">[AddScreenParams](./puppeteer.addscreenparams.md)</span>
+
+</td><td>
+
+</td></tr>
+<tr><td>
+
 <span id="autofilldata">[AutofillData](./puppeteer.autofilldata.md)</span>
 
 </td><td>
@@ -1233,6 +1240,20 @@ Required response data to fulfill a request with.
 </td></tr>
 <tr><td>
 
+<span id="screeninfo">[ScreenInfo](./puppeteer.screeninfo.md)</span>
+
+</td><td>
+
+</td></tr>
+<tr><td>
+
+<span id="screenorientation_2">[ScreenOrientation_2](./puppeteer.screenorientation_2.md)</span>
+
+</td><td>
+
+</td></tr>
+<tr><td>
+
 <span id="screenshotclip">[ScreenshotClip](./puppeteer.screenshotclip.md)</span>
 
 </td><td>
@@ -1324,6 +1345,20 @@ The TouchHandle interface exposes methods to manipulate touches that have been s
 <tr><td>
 
 <span id="waittimeoutoptions">[WaitTimeoutOptions](./puppeteer.waittimeoutoptions.md)</span>
+
+</td><td>
+
+</td></tr>
+<tr><td>
+
+<span id="windowbounds">[WindowBounds](./puppeteer.windowbounds.md)</span>
+
+</td><td>
+
+</td></tr>
+<tr><td>
+
+<span id="workareainsets">[WorkAreaInsets](./puppeteer.workareainsets.md)</span>
 
 </td><td>
 
@@ -1803,6 +1838,13 @@ Browsers supported by Puppeteer.
 </td><td>
 
 Whether to wait for the element to be [visible](./puppeteer.elementhandle.isvisible.md) or [hidden](./puppeteer.elementhandle.ishidden.md). `null` to disable visibility checks.
+
+</td></tr>
+<tr><td>
+
+<span id="windowstate">[WindowState](./puppeteer.windowstate.md)</span>
+
+</td><td>
 
 </td></tr>
 </tbody></table>
